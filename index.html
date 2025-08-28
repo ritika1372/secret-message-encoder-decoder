@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Secret Message Encoder</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🔐 Secret Message Encoder</h1>
+    <textarea id="inputText" placeholder="Enter your message..."></textarea>
+
+    <div class="buttons">
+      <button onclick="encode()">Encode (Base64)</button>
+      <button onclick="decode()">Decode (Base64)</button>
+    </div>
+
+    <h3>Output:</h3>
+    <textarea id="outputText" readonly></textarea>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
